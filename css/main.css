@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #13294B;
+}
+
+h1, h3 {
+    font-family: 'Zen Dots', cursive;
+}
+
+.navbar {
+    border-bottom: 1px solid #E8F9FD;
+}
+
+.navbar,
+.home {
+    background-color: #13294B;
+}
+.home .my-skill h3{
+    color: #79DAE8;
+}
+
+.home .my-skill .list-group .list-group-item{
+    background-color: #13294B;
+    border: 1px solid #0AA1DD;
+    color: #0AA1DD;
+    font-family: 'Zen Dots', cursive;
+    
+}
+.list-group .list-group-item:nth-child(2){
+    transition-delay: 400ms;
+}
+.list-group .list-group-item:nth-child(3){
+    transition-delay: 800ms;
+}
+
+
+.navbar .navbar-brand {
+    color: #79DAE8;
+    font-weight: 900;
+    font-family: 'Zen Dots', cursive;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Zen Dots', cursive;
+    color: #79DAE8;
+}
+
+.navbar .navbar-toggler {
+    background-color: #79DAE8;
+}
+
+.navbar .dropdown-menu .dropdown-item{
+    color: #13294B;
+    font-family: 'Zen Dots', cursive;   
+}
+.navbar .dropdown-menu .dropdown-item:hover, .navbar .dropdown-menu .dropdown-item:active{
+    background-color: #0AA1DD;
+}
+.navbar .dropdown-menu .dropdown-item p{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.home {
+    height: 100%;
+}
+
+.home .title {
+    color: #79DAE8;
+    font-family: 'Zen Dots', cursive;
+}
+.home .profile-img{
+    border: 3px solid #79DAE8;
+}
+.home .caption {
+    color: #79DAE8;
+    font-family: 'Zen Dots', cursive;
+}
+
+.about {
+    background-color: #E8F9FD;
+}
+
+.about .heading {
+    color: #13294B;
+    text-decoration: underline;
+}
+
+.about .caption {
+    text-align: justify;
+    font-weight: 600;
+    color: #13294B;
+}
+.about .about-icon{
+    font-size: 48px;
+    margin: 5px;
+}
+
+.school-projects .heading {
+    color: #E8F9FD;
+    margin-bottom: 10px;
+}
+
+.school-projects .title {
+    color: #13294B;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.school-projects .caption {
+    color: #13294B;
+    text-align: justify;
+}
+
+.contact-us .title {
+    color: #E8F9FD;
+}
+.contact-us .caption{
+    color: #E8F9FD;
+    font-style: italic;
+}
+.contact-us .form-label {
+    color: #13294B;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #E8F9FD;
+    border-top: 1px solid #E8F9FD;
+}
+
+footer p {
+    font-family: 'Zen Dots', cursive;
+    color: #13294B;
+    font-weight: 800;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform:  translateX(-100%);
+    filter: blur(2px);
+}
+.show{
+    opacity: 1;
+    transform:  translateX(0);
+    filter: blur(0);
+}
