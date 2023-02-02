@@ -105,10 +105,35 @@ h1, h3 {
     color: #13294B;
 }
 .about .about-icon{
-    font-size: 48px;
     margin: 5px;
 }
+.about .about-icon{
+    padding: 10px 10px 5px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.about .about-icon p{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
 
+.about .fab.fa-bootstrap.about-icon {
+    color: #6E11EF!important;
+}
+.about .fa-brands.fa-square-js.about-icon{
+    color: #F0DB4F!important;
+}
+.about .fab.fa-php.about-icon{
+    color:#8891BC!important;
+}
+.about .fa-solid.fa-database.about-icon{
+    color: #358AA9!important;    
+}
+.about .fab.fa-laravel.about-icon{
+    color: #FE2C1F!important;
+}
 .school-projects .heading {
     color: #E8F9FD;
     margin-bottom: 10px;
